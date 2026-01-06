@@ -1,34 +1,184 @@
-Inner Circle III
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ParallelYou™ | You’re In</title>
+  <meta name="description" content="Thank you for joining ParallelYou™. Your place is confirmed. Launch begins January 13." />
+  <link rel="icon" type="image/png" href="https://i.imgur.com/EY0fRNK.png" />
 
-Hey, quick share.
-I’ve been building something new, and it’s live now.
-It’s called ParallelYou™, and it’s the most accurate way I’ve found to take how I think, decide, and communicate and turn it into a working system that actually supports me day to day.
-This isn’t content automation.
- It’s not a course.
-It’s infrastructure- an AI powered EchoClone™ that carries your standards, voice, and judgment so your work can scale without everything running through you.
-If you’ve ever felt like:
-> every decision waits on you
-> your ideas outpace your bandwidth
-> or the business only moves when you’re “on”
-This is built for that.
-Because you’re part of [INSERT GROUP NAME], I wanted to extend a private, reduced rate as a thank-you for being in my network and supporting my work.
-Public founding cohort pricing:
-Core: $1,997 → $397 (public offer)
+  <style>
+    :root {
+      --bg: #0b0b0e;
+      --card: rgba(255,255,255,0.08);
+      --border: rgba(255,255,255,0.16);
+      --text: #eaeaf0;
+      --muted: #a6a6b3;
+      --accent: #ff6b81;
+      --accent-soft: rgba(255,107,129,0.35);
+      --accent2: #5dfdcb;
+      --accent2-soft: rgba(93,253,203,0.35);
+    }
 
+    * { box-sizing: border-box; }
 
-VIP: $2,997 → $497 (public offer)
+    html, body {
+      margin: 0;
+      padding: 0;
+      background: radial-gradient(1200px 600px at 20% -10%, rgba(93,253,203,0.08), transparent 40%),
+                  radial-gradient(800px 400px at 90% 10%, rgba(255,71,87,0.08), transparent 45%),
+                  var(--bg);
+      color: var(--text);
+      font-family: -apple-system, BlinkMacSystemFont, "Inter", "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      -webkit-font-smoothing: antialiased;
+      overflow-x: hidden;
+    }
 
+    .wrap {
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 32px 20px;
+    }
 
-For this group only, you can join at:
-Core: $27 < For You
+    .card {
+      max-width: 820px;
+      width: 100%;
+      background: linear-gradient(180deg, rgba(255,255,255,0.14), rgba(255,255,255,0.04));
+      border: 1px solid var(--border);
+      border-radius: 22px;
+      padding: 48px 40px;
+      backdrop-filter: blur(18px);
+      box-shadow: 0 30px 90px rgba(0,0,0,0.55);
+    }
 
+    .logo {
+      display: flex;
+      align-items: center;
+      gap: 14px;
+      margin-bottom: 32px;
+    }
 
-VIP: $42 < For You
+    .logo img {
+      height: 42px;
+      width: auto;
+    }
 
+    .logo span {
+      font-weight: 600;
+      letter-spacing: 0.3px;
+    }
 
-If this resonates, you can secure your spot now. No hoops. No long funnel.
-If you want to look first, the entry point is just confirming fit, full breakdown is on this link. 
-Make sure you use THESE PAYMENT LINKS TO CONFIRM YOUR EXCLUSIVE PRICING. 
-CORE: 
-VIP:
-Either way, I wanted you to have first access before this moves wider. Grateful you’re here, and excited to build this with people I trust.
+    h1 {
+      font-size: clamp(32px, 5vw, 44px);
+      line-height: 1.15;
+      margin: 0 0 16px 0;
+      letter-spacing: -0.4px;
+      background: linear-gradient(135deg, #ffffff, #dffff4, var(--accent2));
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+
+    p {
+      font-size: 17px;
+      line-height: 1.65;
+      color: var(--muted);
+      margin: 0 0 18px 0;
+    }
+
+    .divider {
+      height: 1px;
+      background: linear-gradient(90deg, transparent, var(--accent-soft), transparent);
+      margin: 32px 0;
+    }
+
+    .highlight {
+      color: var(--text);
+      font-weight: 500;
+    }
+
+    .pill {
+      display: inline-block;
+      margin-top: 14px;
+      padding: 10px 18px;
+      border-radius: 999px;
+      background: linear-gradient(135deg, rgba(93,253,203,0.28), rgba(255,107,129,0.18));
+      border: 1px solid var(--accent2-soft);
+      color: var(--accent2);
+      font-size: 14px;
+      font-weight: 500;
+      box-shadow: 0 0 28px rgba(93,253,203,0.35);
+    }
+
+    footer {
+      margin-top: 40px;
+      font-size: 13px;
+      color: var(--muted);
+    }
+
+    footer strong {
+      color: var(--text);
+      font-weight: 500;
+    }
+
+    @media (max-width: 640px) {
+      .card {
+        padding: 36px 24px;
+      }
+
+      h1 {
+        font-size: 30px;
+      }
+
+      p {
+        font-size: 16px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <div class="card">
+      <div class="logo">
+        <img src="https://i.imgur.com/yRfFYR1.png" alt="ParallelYou Logo" />
+        <span>ParallelYou™</span>
+      </div>
+
+      <h1>You’re In.</h1>
+
+      <p class="highlight">Thank you for joining <strong>ParallelYou™</strong>. Your place is confirmed.</p>
+
+      <p>
+        This is infrastructure for your authority  not a course, not a content system  and it’s designed to support how you actually think, decide, and lead.
+      </p>
+
+      <div class="divider"></div>
+
+      <p class="highlight">What happens next</p>
+
+      <p>
+        The <strong>ParallelYou™ cohort officially launches on January 13</strong>.
+        You’ll receive onboarding details, next steps, and setup guidance <strong>later this week</strong>.
+      </p>
+
+      <span class="pill">Launch begins January 13</span>
+
+      <div class="divider"></div>
+
+      <p>
+        You joined this because you understand that scaling isn’t about doing more  it’s about designing systems that carry your standards without draining your energy.
+      </p>
+
+      <p class="highlight">That’s exactly what we’re building together.</p>
+
+      <p> Dixie</p>
+
+      <footer>
+        <strong>ParallelYou™</strong> · Authority Scale™ · EchoClone™ · SelfOS™<br />
+        Questions: weare@authorityscale.com
+      </footer>
+    </div>
+  </div>
+</body>
+</html>
